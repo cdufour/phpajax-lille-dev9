@@ -9,4 +9,4 @@ Une pagination permettra de naviguer entre les pages de résultats
 La première page sera chargée dès le départ, les autres seront chargées "à la demande" via des requêtes ajax
 
 N.b: Au choix
-On liera un article à plusieurs catégorie (relation n-n) ou bien à une seule (relation 1-n).
+On liera un article à plusieurs catégories (relation n-n) ou bien à une seule (relation 1-n).
