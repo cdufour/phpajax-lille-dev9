@@ -7,3 +7,6 @@ Backend (Apache/PHP/MySql) : enregistrement des articles et des catégories
 Frontend : affichage des articles (JS: pur, jquery ou angular)
 Une pagination permettra de naviguer entre les pages de résultats
 La première page sera chargée dès le départ, les autres seront chargées "à la demande" via des requêtes ajax
+
+N.b: Au choix
+On liera un article à plusieurs catégorie (relation n-n) ou bien à une seule (relation 1-n).
