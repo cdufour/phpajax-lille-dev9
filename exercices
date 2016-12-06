@@ -1,0 +1,26 @@
+Jour 1:
+Exercice 1:
+Inclure dans la page template.php
+  un fichier menu.html qui contiendra la liste de liens suivante :
+    page 1
+    page 2
+    page 3
+
+Créer les 3 pages vides php correspondantes .
+
+Exercice 2:
+Modifer le mécanisme d'ouverture de session
+Créer une page login.php accessible depuis la page template
+La page login.php proposera un formulaire d'identification (username , password) si les deux infos sont correctes ,
+comparer  ces données postées avec les infos stockées dans une variable
+exemple :$user = array('username'=>'Gooduser',pass => 1234);
+si le test est réussi ouvrir une session et y enregistrer le username
+
+Jour 2 :
+Exercice3:
+Creer une page poeme.php contenant un formulaire avec un texte area et un button submit ,
+la soumission du formulaire ecrira dans un fichier (produira un fichier) le poeme saisi dans le texte area.
+
+Excercice4:
+Modifier le nom du fichier poeme1.txt ,en lui affectant la date et lheure de chaque modification du fichier
+Exemple : poeme1_20161206-101106

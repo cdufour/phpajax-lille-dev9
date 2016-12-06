@@ -1,0 +1,32 @@
+sur C:\xampp -> htdocs -> formation-php-ajax
+En php :
+On peut faire un tableau de variables de types differents
+La fonction echo : elle ne peut afficher qu'une valeur de type simple .
+La fonction print_r : nous aide à debugger (par exemple un tableau)
+2 syntaxes pour declarer un tableau : [] et array .
+L'association se fait par : =>
+La concaténation en PHP est le point : .
+Pour déclarer des constantes en PH : define
+Possibilités d'imbriquer un tableau dans un autre
+L'operateur '.= ' : il affiche à la fin du premier texte la sevonde valeur du texxte sans creer 2 variables
++= : on affecte la variable et on la reafecte en prenant en compte son contenu precedent .(addition)
+*=  : meme chose en multiplication
+Lenght n'existe pas en php , cest count qui la remplace
+foreach: en premier argument le tableau souhaitant itéré et as l'iterant
+
+Templating : c'est ouvrir des blocs php dans une seule page
+La balise a egale requete http get
+
+Les supers globles :
+  $_POST[] // cest un tableau associatif (exemple :page1)
+  $_GET[] (exemple :page2)
+  $_SESSION[]
+  $_SERVER[]
+  $_FILES[]
+
+isset : pour verifier la presence de la clé
+session_start() : doit etre la premiere ligne du code php sans laisser des espaces ou quoi
+En fermant le navigateur , on ferme la session
+
+
+date('Ymd') : y pour les annees , m pour les mois , d pour les jours
