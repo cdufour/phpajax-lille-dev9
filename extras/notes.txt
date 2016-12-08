@@ -1,0 +1,26 @@
+Installer XAMPP + éditeur (Atom)
+
+https://github.com/cdufour/angularjs-lille-dev9
+
+http://stackoverflow.com/questions/20255954
+
+function utf8_encode_recursive ($array)
+{
+    $result = array();
+    foreach ($array as $key => $value)
+    {
+        if (is_array($value))
+        {
+            $result[$key] = utf8_encode_recursive($value);
+        }
+        else if (is_string($value))
+        {
+            $result[$key] = utf8_encode($value);
+        }
+        else
+        {
+            $result[$key] = $value;
+        }
+    }
+    return $result;
+}

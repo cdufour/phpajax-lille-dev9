@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>TP Pitch Players</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <h1>TP Pitch Players</h1>
+
+    <div id="commands">
+      <div class="col1">
+        Lieu <input id="place" type="text">
+        Date <input id="date" type="date">
+        <div>
+          <button id="saveMatch">Enregistrer</button>
+        </div>
+      </div>
+
+      <div class="col2">
+        <h3>Matchs enregistrés</h3>
+        <ul id="savedMatchs"></ul>
+      </div>
+    </div>
+
+    <div class="clear"></div>
+
+    <div id="container">
+
+      <div id="players"></div>
+      <div id="pitch"></div>
+
+    </div>
+
+    <script src="jquery.min.js"></script>
+    <script src="jquery-ui.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+Inclure dans la page template.php
+  un fichier menu.inc.html qui contiendra la liste de liens
+  suivante:
+    page 1
+    page 2
+    page 3
+
+Créer les 3 pages vides php correspondantes:
+  page1.php, page2.php, etc.
+
+Modifier le mécanisme d'ouverture de session
+Créer une page login.php, accessible depuis la page template.php
+La page login.php proposera un formulaire d'identification
+  Nom d'utilisateur
+  Mot de passe
+Comparer les données postées avec des infos stockées
+dans une variable.
+Ex: $user = array('username'=>'Gooduser', pass=>1234);
+Si les test est réussi => ouvrir une session, y enregistrer
+le nom de l'utilisateur et rediriger sur template.php
+
+
+Créer une page poem.php
+contenant un formulaire avec
+  textarea
+  bouton submit
+
+La soumission du formulaire écrira dans un fichier serveur
+(exemple: poems/poem1.txt) le poème saisi dans le textarea
+
+Le nom du fichier devra contenir date et heure de soumission
+du formulaire (exemple: poem1_20161206-101106)

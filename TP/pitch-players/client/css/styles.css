@@ -1,0 +1,52 @@
+#container {
+  position: relative
+}
+
+.col1, .col2 {
+  float:left;
+  width: 50%
+}
+
+.clear {
+  clear:both
+}
+
+#commands {
+  height: 160px
+}
+
+#pitch {
+  background: url('../img/football-pitch.png');
+  width: 800px;
+  height: 507px;
+  float: left;
+  left: 120px;
+  position: absolute;
+  z-index: 1
+}
+
+#players {
+  float: left;
+  width: 800px;
+  height: 507px;
+  position: absolute;
+  z-index: 2
+}
+
+.player {
+  width: 100px;
+  height: 22px;
+  margin: 2px 0;
+  padding: 2px;
+  cursor: move;
+  background-color: orange;
+  position: absolute
+}
+
+.good {
+  background-color: #00FF00;
+}
+
+.compo {
+  cursor: pointer
+}
