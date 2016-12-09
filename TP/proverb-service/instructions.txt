@@ -13,7 +13,7 @@ La page affichera le proverbe.
 
 Un paramètrage côté client permettra d’afficher un proverbe différent (nouvelle requête) toutes les n secondes.
 
-L’interface utilisateur permettra de stopper cette affichage automatisé.
+L’interface utilisateur permettra de stopper cet affichage automatisé.
 
 Options: ajouter au service les fonctionnalités suivantes:
 
@@ -23,6 +23,6 @@ Options: ajouter au service les fonctionnalités suivantes:
 - supprimer:		DELETE 	url-serveur/proverb-service/{id}
 
 Créer l’interface utilisateur permettant de consommer ces services par des requêtes ajax
-avec mise à jour de l’UI si nécessaire (ex: mettre la jour la liste des poèmes si nouvelle insertion) et messages de réussite/échec
+avec mise à jour de l’UI si nécessaire (ex: mettre la jour la liste des proverbes si nouvelle insertion) et messages de réussite/échec
 
 
