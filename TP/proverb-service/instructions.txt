@@ -11,14 +11,14 @@ S’il le trouve, le serveur renvoie le proverbe sinon il en informe le client
 Créer une page client consommant le service.
 La page affichera le proverbe.
 
-Un paramètrage côté client permettra d’afficher un poème différent (nouvelle requête) toutes les n secondes.
+Un paramètrage côté client permettra d’afficher un proverbe différent (nouvelle requête) toutes les n secondes.
 
 L’interface utilisateur permettra de stopper cette affichage automatisé.
 
 Options: ajouter au service les fonctionnalités suivantes:
 
 - liste des poèmes:	GET	url-serveur/proverb-service
-- ajouter un proverbe : 	POST 	url-serveur/proverb-service
+- ajouter un proverbe: 	POST 	url-serveur/proverb-service
 - mettre à jour: 	PUT 	url-serveur/proverb-service/{id}
 - supprimer:		DELETE 	url-serveur/proverb-service/{id}
 
